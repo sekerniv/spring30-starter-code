@@ -1,5 +1,5 @@
 modules = ["web", "java-graalvm22.3", "nix"]
-run = "mvn spring-boot:run"
+run = "mvn -Dspring-boot.run.addResources=true spring-boot:run"
 
 [nix]
 channel = "stable-25_05"
