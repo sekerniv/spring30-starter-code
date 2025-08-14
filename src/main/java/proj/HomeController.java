@@ -10,6 +10,6 @@ public class HomeController {
 
     @GetMapping("/")
     public String helloWorld(Model model, HttpSession session) {
-        return "index";
+        return "home";
     }
 }

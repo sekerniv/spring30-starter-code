@@ -1,4 +1,4 @@
-modules = ["web", "java-graalvm22.3", "nix"]
+modules = ["java-graalvm22.3", "nix"]
 run = "mvn -Dspring-boot.run.addResources=true spring-boot:run"
 
 [nix]
